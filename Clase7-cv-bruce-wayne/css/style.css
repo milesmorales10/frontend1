@@ -1,0 +1,37 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header>img {
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.title-subtitle {
+    text-transform: uppercase;
+    color: #005677;
+    background-color: #C4C4C4;
+}
+
+footer {
+    background: #005677;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.icono {
+    margin-left: 10px;
+}
+
+.iden{
+    margin-left: 80px;
+}
