@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    color: #fff;
+}
+
+.header__settings-nav {
+    background-color: #000;
+}
+
+.header__main-nav {
+    background-color: #F0A83E;
+}
+
+.banner {
+    background-image: url('../img/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    text-align: right;
+    width: 100%;
+}
+
+.banner__main-text span {
+    background: #fff;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+
+.banner p {
+    margin: 1rem 2rem;
+}
+
+.banner__button {
+    background: #F0A83E;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    margin: 0.3rem 2rem;
+    padding: 0.5rem;
+}
+
+.content-products {
+    text-align: center;
+}
+
+.content-products h1 {
+    color: #3C2313;
+}
+
+.main-icon {
+    color: #F0A83E;
+    display: block;
+    font-size: 5rem;
+}
+
+.info {
+    background: #3C2313;
+    color: #fff;
+}
+
+.info-icon {
+    background: #8A8787;
+    border-radius: 50%;
+    padding: 0.5rem;
+}
+
+.info__secondary-text {
+    font-size: 0.75rem;
+    font-weight: 300;
+}
+
+footer {
+    background-color: #F0A83E;
+    color: #fff;
+    text-align: center;
+}

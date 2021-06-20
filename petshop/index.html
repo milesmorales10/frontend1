@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <title>FrontCat&Dog</title>
 </head>
 <body>
     <header>
-        <section>
+        <section class="header__settings-nav">
             <p>Grandes ofertas en comederos</p>
             <nav>
                 <ul type="none">
@@ -17,26 +19,28 @@
                 </ul>
             </nav>
         </section>
-        <section style="background: #F0A83E;">
+        <section class="header__main-nav">
             <img src="img/logo.png" alt="FrontCat&Dog logo">
             <nav>
                 <ul type="none">
-                    <li><img src="img/pawprint.png" alt="huella menú">Categorías</li>
-                    <li><img src="img/pawprint.png" alt="huella menú">Pets</li>
-                    <li><img src="img/pawprint.png" alt="huella menú">Nosotros</li>
-                    <li><img src="img/pawprint.png" alt="huella menú">Contactanos</li>
+                    <li><i class="fas fa-paw"></i>Categorías</li>
+                    <li><i class="fas fa-paw"></i>Pets</li>
+                    <li><i class="fas fa-paw"></i>Nosotros</li>
+                    <li><i class="fas fa-paw"></i>Contactanos</li>
                 </ul>
             </nav>
         </section>
     </header>
     <main>
-        <section style="background-image: url('img/banner.png');">
-            <p>¡Es un placer tenerte aquí!</p>
+        <section class="banner">
+            <div class="banner__main-text">
+                <span>¡Es un placer tenerte aquí!</span>
+            </div>
             <p>¡Comederos en descuento!</p>
-            <button>COMEDEROS</button>
+            <button class="banner__button">COMEDEROS</button>
         </section>
-        <section>
-            <img src="img/pawprint.png" alt="Huella sección productos">
+        <section class="content-products">
+            <i class="fas fa-paw main-icon"></i>
             <h1>Productos Destacados</h1>
             <a href="">Comederos</a> <span>-</span> 
             <a href="">Accesorios</a> <span>-</span> 
@@ -57,9 +61,32 @@
                 <p><b>$650</b></p>
             </div>
         </section>
+        <section class="info">
+            <div>
+                <i class="fas fa-map-marked-alt info-icon"></i>
+                <div>
+                    <p>Localidad</p>
+                    <p class="info__secondary-text">Calle - Provincia</p>
+                </div>
+            </div>
+            <div>
+                <i class="fas fa-phone-volume info-icon"></i>
+                <div>
+                    <p>Teléfono</p>
+                    <p class="info__secondary-text">Número de teléfono</p>
+                </div>
+            </div>
+            <div>
+                <i class="fas fa-at info-icon"></i>
+                <div>
+                    <p>Correo electrónico</p>
+                    <p class="info__secondary-text">Dirección de correo</p>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
-        <p align="center">Todos los derechos reservados Front End</p>
+        <p>Todos los derechos reservados Front End</p>
     </footer>
 </body>
 </html>
