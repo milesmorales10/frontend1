@@ -45,47 +45,62 @@
             <a href="">Comederos</a> <span>-</span> 
             <a href="">Accesorios</a> <span>-</span> 
             <a href="">Comida</a>
-            <div>
-                <img src="img/churrasquito.png" alt="Juguete churrasquito">
-                <p><b>Juguete churrasquito</b></p>
-                <p><b>$150</b></p>
-            </div>
-            <div>
-                <img src="img/comedero.png" alt="Comedero para perro">
-                <p><b>Comedero para perro</b></p>
-                <p><b>$250</b></p>
-            </div>
-            <div>
-                <img src="img/huesito.png" alt="Juguete huesito">
-                <p><b>Juguete huesito</b></p>
-                <p><b>$650</b></p>
-            </div>
+            <section class="products-list">
+                <article>
+                    <img src="img/churrasquito.png" alt="Juguete churrasquito">
+                    <p><b>Juguete churrasquito</b></p>
+                    <p><b>$150</b></p>
+                </article>
+                <article>
+                    <img src="img/comedero.png" alt="Comedero para perro">
+                    <p><b>Comedero para perro</b></p>
+                    <p><b>$250</b></p>
+                </article>
+                <article>
+                    <img src="img/huesito.png" alt="Juguete huesito">
+                    <p><b>Juguete huesito</b></p>
+                    <p><b>$650</b></p>
+                </article>
+            </section>
         </section>
-        <section class="info">
-            <div>
-                <i class="fas fa-map-marked-alt info-icon"></i>
-                <div>
-                    <p>Localidad</p>
-                    <p class="info__secondary-text">Calle - Provincia</p>
-                </div>
-            </div>
-            <div>
-                <i class="fas fa-phone-volume info-icon"></i>
-                <div>
-                    <p>Teléfono</p>
-                    <p class="info__secondary-text">Número de teléfono</p>
-                </div>
-            </div>
-            <div>
-                <i class="fas fa-at info-icon"></i>
-                <div>
-                    <p>Correo electrónico</p>
-                    <p class="info__secondary-text">Dirección de correo</p>
-                </div>
-            </div>
-        </section>
+        <section id="contact">
+            <h2>Contactenos</h2>
+            <form action="#FORMULARIO-ENVIADO">
+              <input type="text" name="nombre" id="" placeholder="Nombre y Apellido"><br>
+              <input type="email" name="email" id="" placeholder="Ingresa tu correo electronico"><br>
+              <input type="tel" name="tel" id="" placeholder="Telefono"><br><br><br>
+              <button class="reset" type="reset">Resetear</button>
+              <button class="send" type="submit">Enviar</button>
+            </form>
+          </section>
     </main>
     <footer>
+        <section class="about">
+            <section class="info">
+                <div>
+                    <i class="fas fa-map-marked-alt info-icon"></i>
+                    <div>
+                        <p>Localidad</p>
+                        <p class="info__secondary-text">Calle - Provincia</p>
+                    </div>
+                </div>
+                <div>
+                    <i class="fas fa-phone-volume info-icon"></i>
+                    <div>
+                        <p>Teléfono</p>
+                        <p class="info__secondary-text">Número de teléfono</p>
+                    </div>
+                </div>
+                <div>
+                    <i class="fas fa-at info-icon"></i>
+                    <div>
+                        <p>Correo electrónico</p>
+                        <p class="info__secondary-text">Dirección de correo</p>
+                    </div>
+                </div>
+            </section>
+            <img src="img/logo-footer.png" alt="Logo del footer">
+        </section>
         <p>Todos los derechos reservados Front End</p>
     </footer>
 </body>
