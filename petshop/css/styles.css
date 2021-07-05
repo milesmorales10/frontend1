@@ -22,7 +22,7 @@ button {
     color: #fff;
     cursor: pointer;
     font-size: 1rem;
-    margin: 0.3rem 2rem;
+    margin: 0.3rem;
     padding: 1rem;
 }
 
@@ -93,7 +93,7 @@ button {
     background-color: white;
     text-align: center;
     padding-top: 65px;
-    margin-bottom: 80px;
+    margin-bottom: 2rem;
 }
 
 #contact h2 {
@@ -101,7 +101,7 @@ button {
     margin-bottom: 10px;
 }
 
-input {
+#form-contact input {
     margin: 5px;
     width: 340px;
     height: 40px;
@@ -110,10 +110,19 @@ input {
     border-style: none;
 }
 
-input[placeholder] {
+#form-contact input[placeholder] {
     color: white;
     font-size: 10px;
     padding-left: 14px;
+}
+
+.form-button {
+    display: flex;
+}
+
+.reset, .send {
+    flex-grow: 1;
+    border-radius: 20px;
 }
 
 .reset {
@@ -122,6 +131,31 @@ input[placeholder] {
 
 .send {
     background: #F0A83E;
+}
+
+#subscription {
+    background: #F0A83E;
+    display: flex;
+    align-items: center;
+}
+
+#subscription span {
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+#form-subscription input {
+    background: #fff;
+    border-radius: 30px;
+    border-style: none;
+    padding: 1rem;
+}
+
+#form-subscription button {
+    background: #3C2313;
+    border-radius: 30px;
+    color: #fff;
 }
 
 .about {
@@ -136,6 +170,11 @@ input[placeholder] {
     background: #8A8787;
     border-radius: 50%;
     padding: 0.5rem;
+}
+
+.info__main-text {
+    font-size: 1.3rem;
+    font-weight: 700;
 }
 
 .info__secondary-text {
@@ -185,11 +224,32 @@ footer {
         display: flex;
         flex-flow: column nowrap;
     }
+    #subscription {
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .subscription-title {
+        display: flex;
+        align-items: center;
+    }
+    .subscription-title img {
+        margin-right: 1rem;
+    }
     .about {
         display: flex;
         flex-flow: column nowrap;
+        padding-top: 0.5rem;
     }
     .info-section {
         order: 1;
+    }
+    .icon-text {
+        display: flex;
+        justify-content: center;
+        margin: 1rem 0;
+    }
+    .icon-text i {
+        margin-right: 1rem;
     }
 }

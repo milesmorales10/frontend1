@@ -66,36 +66,48 @@
         </section>
         <section id="contact">
             <h2>Contactenos</h2>
-            <form action="#FORMULARIO-ENVIADO">
-              <input type="text" name="nombre" id="" placeholder="Nombre y Apellido"><br>
-              <input type="email" name="email" id="" placeholder="Ingresa tu correo electronico"><br>
-              <input type="tel" name="tel" id="" placeholder="Telefono"><br><br><br>
-              <button class="reset" type="reset">Resetear</button>
-              <button class="send" type="submit">Enviar</button>
+            <form action="#FORMULARIO-ENVIADO" id="form-contact">
+                <input type="text" name="nombre" id="" placeholder="Nombre y Apellido"><br>
+                <input type="email" name="email" id="" placeholder="Ingresa tu correo electronico"><br>
+                <input type="tel" name="tel" id="" placeholder="Telefono"><br><br>
+                <div class="form-button">
+                <button class="reset" type="reset">Resetear</button>
+                <button class="send" type="submit">Enviar</button>
+                </div>
             </form>
-          </section>
+        </section>
+        <section id="subscription">
+            <div class="subscription-title">
+                <img src="img/enviar-correo.png" alt="Enviar email">
+                <span>Suscríbete para más novedades</span>
+            </div>
+            <form action="#Subscribirse" id="form-subscription">
+                <input type="email" name="email" id="email" placeholder="Ingresá tu correo electronico">
+                <button type="submit">Subcribirme</button>
+            </form>
+        </section>
     </main>
     <footer>
         <section class="about">
             <section class="info-section">
-                <div>
+                <div class="icon-text">
                     <i class="fas fa-map-marked-alt info-icon"></i>
                     <div>
-                        <p>Localidad</p>
+                        <p class="info__main-tex">Localidad</p>
                         <p class="info__secondary-text">Calle - Provincia</p>
                     </div>
                 </div>
-                <div>
+                <div class="icon-text">
                     <i class="fas fa-phone-volume info-icon"></i>
                     <div>
-                        <p>Teléfono</p>
+                        <p class="info__main-tex">Teléfono</p>
                         <p class="info__secondary-text">Número de teléfono</p>
                     </div>
                 </div>
-                <div>
+                <div class="icon-text">
                     <i class="fas fa-at info-icon"></i>
                     <div>
-                        <p>Correo electrónico</p>
+                        <p class="info__main-tex">Correo electrónico</p>
                         <p class="info__secondary-text">Dirección de correo</p>
                     </div>
                 </div>
