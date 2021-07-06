@@ -99,7 +99,7 @@ button {
 }
 
 .products-list article {
-    margin: 50px 10px;
+    margin: 3rem 0.6rem;
 }
 
 .main-icon {
@@ -112,19 +112,19 @@ button {
     width: 100%;
     background-color: white;
     text-align: center;
-    padding-top: 65px;
+    padding-top: 4rem;
     margin-bottom: 2rem;
 }
 
 #contact h2 {
-    font-size: 25px;
-    margin-bottom: 10px;
+    font-size: 1.5rem;
+    margin-bottom: 0.6rem;
 }
 
 #form-contact input {
-    margin: 5px;
-    width: 340px;
-    height: 40px;
+    margin: 0.3rem;
+    width: 21rem;
+    height: 2.5rem;
     background: #3C2313;
     border-radius: 15px;
     border-style: none;
@@ -132,8 +132,8 @@ button {
 
 #form-contact input[placeholder] {
     color: white;
-    font-size: 10px;
-    padding-left: 14px;
+    font-size: 0.6rem;
+    padding-left: 0.8rem;
 }
 
 .form-button {
@@ -194,7 +194,7 @@ button {
     justify-content: space-between;
     background: #3C2313;
     color: #fff;
-    padding: 0 70px;
+    padding: 0 4rem;
 }
 
 .info-icon {
