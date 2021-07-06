@@ -15,6 +15,12 @@ header {
     color: #fff;
 }
 
+a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 0.5rem;
+}
+
 button {
     background: #F0A83E;
     border: none;
@@ -28,24 +34,37 @@ button {
 
 .header__settings-nav {
     background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.2rem 2rem;
 }
 
 .header__main-nav {
     background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 2rem;
+}
+
+.menu i {
+    margin-right: 0.2rem;
 }
 
 .burger {
-    display: none;
+    visibility: hidden;
 }
 
 .banner {
     background-image: url('../img/banner.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
-    margin: 0;
-    text-align: right;
+    height: 50vh;
     width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: 1rem;
 }
 
 .banner__main-text span {
@@ -56,12 +75,13 @@ button {
 }
 
 .banner p {
-    margin: 1rem 2rem;
+    margin: 0.8rem 2rem;
 }
 
 .content-products {
     text-align: center;
     line-height: 2.5rem;
+    margin-top: 2rem;
 }
 
 .content-products h1 {
@@ -118,10 +138,10 @@ button {
 
 .form-button {
     display: flex;
+    justify-content: center;
 }
 
 .reset, .send {
-    flex-grow: 1;
     border-radius: 20px;
 }
 
@@ -136,10 +156,21 @@ button {
 #subscription {
     background: #F0A83E;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.5rem;
+}
+
+.subscription-title {
+    display: flex;
     align-items: center;
 }
 
-#subscription span {
+.subscription-title img {
+    margin-right: 1rem;
+}
+
+.subscription-title span {
     color: #fff;
     font-weight: 700;
     font-size: 1.25rem;
@@ -170,6 +201,16 @@ button {
     background: #8A8787;
     border-radius: 50%;
     padding: 0.5rem;
+}
+
+.icon-text {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.icon-text i {
+    margin-right: 1rem;
 }
 
 .info__main-text {
@@ -208,6 +249,7 @@ footer {
         display: none;
     }
     .burger {
+        visibility: visible;
         color: #fff;
         font-size: 1.5rem;
     }
@@ -224,17 +266,13 @@ footer {
         display: flex;
         flex-flow: column nowrap;
     }
+    .reset, .send {
+        flex-grow: 1;
+    }
     #subscription {
         flex-flow: column nowrap;
         justify-content: center;
         align-items: center;
-    }
-    .subscription-title {
-        display: flex;
-        align-items: center;
-    }
-    .subscription-title img {
-        margin-right: 1rem;
     }
     .about {
         display: flex;
@@ -243,13 +281,5 @@ footer {
     }
     .info-section {
         order: 1;
-    }
-    .icon-text {
-        display: flex;
-        justify-content: center;
-        margin: 1rem 0;
-    }
-    .icon-text i {
-        margin-right: 1rem;
     }
 }
