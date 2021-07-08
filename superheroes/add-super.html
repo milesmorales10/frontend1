@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/add-super.css">
+        <link rel="stylesheet" href="css/shared.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <title>Superheroes</title>
+    </head>
+</html>
+<body>
+    <header>
+        <section class="header__discount">
+            <p>20% de descuento en todos los productos!</p>
+        </section>
+        <section class="header__main-section">
+            <img src="images/Logo.png" alt="Logo de la tienda">
+            <p>Nombre Tienda</p>
+        </section>
+        <nav class="header__nav">
+            <a href="#">Contacto</a>
+            <a href="#">Registrarme</a>
+            <a href="#">Ingresar</a>
+        </nav>
+    </header>
+    <main>
+        <form action="">
+            <h1>Añadí tu super!</h1>
+            <p class="descripcion">Agregá tu personaje favorito completando las opciones.</p>
+            <div class="flex-row center">
+                <div class="m-r">
+                    <label for="nombre">*Nombre</label><br>
+                    <input type="text" id="nombre" name="nombre">
+                </div>
+                <div></div>
+                <div>
+                    <label for="especie">*Especie</label><br>
+                    <input type="text" id="especie" name="especie" placeholder="Especie">
+                </div>
+            </div>
+            <div class="flex-row center m-t-2">
+                <div class="m-r">
+                    <label for="fecha">Fecha</label><br>
+                    <input type="date" id="fecha" name="fecha">
+                </div>
+                <div>
+                    <label for="foto">Agregar foto</label><br>
+                    <input type="file" id="foto" name="foto">
+                </div>
+            </div>
+            <div class="flex-row center">
+                <div class="m-r">
+                    <textarea name="descripcion" placeholder="Descripción" rows="12"></textarea>
+                </div>
+                <div>
+                    <div class="m-b">
+                        <!-- checkbox -->
+                        <p class="categoria">Poderes</p>
+                        <input type="checkbox" name="poderes" value="volar" id="volar">
+                        <label for="volar">Volar</label><br>
+                        <input type="checkbox" name="poderes" value="superInteligencia" id="superinteligencia">
+                        <label for="superinteligencia">Superinteligencia</label><br>
+                        <input type="checkbox" name="poderes" value="vistaRayoLaser" id="rayolaser">
+                        <label for="rayolaser">Vista de rayo láser</label><br>
+                        <input type="checkbox" name="poderes" value="billeteraGorda" id="billeteragorda">
+                        <label for="rayolaser">Billetera gorda</label><br>
+                    </div>
+                    <hr>
+                    <div class="m-t">
+                        <p class="categoria">Tipo de personaje</p>
+                        <!-- Radio Button -->
+                        <input type="radio" name="personaje" value="heroe" id="heroe">
+                        <label for="heroe">Héroe / Heroina</label><br>
+                        <input type="radio" name="personaje" value="villano" id="villano">
+                        <label for="villano">Villano / Villana</label><br>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-row">
+                <button type="submit">Añadir</button>
+                <div></div>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+</body>

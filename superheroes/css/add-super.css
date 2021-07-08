@@ -1,0 +1,125 @@
+h1,
+p,
+label {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+}
+
+form {
+    width: 60%;
+    background-color: #00669F;
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    margin: 1rem auto;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 72px;
+    text-align: center;
+    color: #FBFFFD;
+}
+
+p {
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+label {
+    font-weight: 300;
+    font-size: 0.9rem;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 0.3rem;
+    line-height: 25px;
+}
+
+input[type="text"],
+input[type="date"] {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+input[type="checkbox"]:checked + label,
+input[type="radio"]:checked + label {
+    background-color: #fff;
+    padding: 0.3rem;
+    border-radius: 5px;
+    color: #000;
+    font-weight: 700;
+}
+
+
+textarea {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+input:focus,
+textarea:focus {
+    background: #1CD1B0;
+}
+
+textarea[placeholder] {
+    font-family: 'Inter', sans-serif;;
+    font-style: normal;
+    font-weight: 300;
+    padding: 0.5rem;
+}
+
+button {
+    background-color: #1CD1B0;
+    padding: 0.5rem 3rem;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 1.5rem;
+    display: block;
+    margin: 0.8rem auto;
+    align-self: flex-start;
+}
+
+button:hover {
+    color: #fff;
+    cursor: pointer;
+    background-color: #34CEFF;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.center {
+    margin: 1rem 5rem;
+}
+
+.m-t {
+    margin-top: 1rem;
+}
+
+.m-t-2 {
+    margin-top: 1rem;
+}
+
+.m-b {
+    margin-bottom: 1rem;
+}
+
+.m-r {
+    margin-right: 2rem;
+}
+
+.descripcion {
+    text-align: center;
+}
+
+.categoria {
+    margin-bottom: 0.5rem;
+}
+
+
