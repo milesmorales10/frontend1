@@ -1,0 +1,133 @@
+#login-form {
+    font-family: 'Karla', sans-serif;
+    font-style: normal;
+    height: 70vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 40%;
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 4.5rem;
+    font-weight: 700;
+    font-size: 4.5rem;
+    line-height: 72px;
+    color: #333333;
+    margin-bottom: 1rem;
+}
+
+.box-input,
+.box-select {
+    width: 100%;
+    border-radius: 5px;
+    padding: 0.3rem;
+    margin: 0.5rem 0;
+    border: 1px solid #000;
+}
+
+.box-input[placeholder] {
+    font-size: 0.9rem;
+    line-height: 25px;
+    color: #000;
+}
+
+.box-input:focus {
+    background-color: #34CEFF;
+}
+
+.box-select {
+    padding: 0.5rem;
+}
+
+.buttons-content {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 0.5rem 3rem;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 1rem;
+    border: 1px solid #000;
+    margin-top: 0.5rem;
+}
+
+.login-button {
+    width: 100%;
+}
+
+.reset-submit-button {
+    width: 50%;
+    margin-right: 0.5rem;
+}
+
+button[type="submit"] {
+    background-color: #1CD1B0;
+}
+
+button[type="submit"]:hover,
+button[type="submit"]:active {
+    cursor: pointer;
+    background-color: #34CEFF;
+}
+
+button[type="reset"] {
+    background-color: #888;
+    color: #fff;
+}
+
+button[type="reset"]:hover,
+button[type="reset"]:active {
+    cursor: pointer;
+    background-color: #da4242;
+}
+
+.register-text {
+    font-size: 0.9rem;
+    line-height: 28px;
+    color: #000;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #00669F;
+}
+
+a:hover,
+a:active {
+    font-size: 1.3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+textarea {
+    width: 100%;
+}
+
+ /* smartphones */
+ @media screen and (max-width: 480px) {
+    form {
+        width: 60%;
+    }
+    h1 {
+        font-size: 3rem;
+        line-height: 50px;
+    }
+    .buttons-content {
+        flex-flow: column nowrap;
+    }
+    .reset-submit-button {
+        width: 100%;
+        margin-right: 0;
+    }
+ }
