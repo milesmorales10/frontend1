@@ -114,8 +114,8 @@ textarea {
     width: 100%;
 }
 
- /* smartphones */
- @media screen and (max-width: 480px) {
+/* smartphones */
+@media screen and (max-width: 480px) {
     form {
         width: 60%;
     }
@@ -130,4 +130,4 @@ textarea {
         width: 100%;
         margin-right: 0;
     }
- }
+}

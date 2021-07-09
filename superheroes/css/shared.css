@@ -64,6 +64,10 @@ header {
     color: #1CD1B0;
 }
 
+.current-link {
+    display: none;
+}
+
 footer {
     background: #00669F;
     color: #fff;

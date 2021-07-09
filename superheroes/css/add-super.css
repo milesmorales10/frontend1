@@ -119,11 +119,11 @@ button:hover {
     margin-bottom: 0.5rem;
 }
 
- /* smartphones */
- @media screen and (max-width: 480px) {
-     h1 {
-         line-height: 40px;
-     }
+/* smartphones */
+@media screen and (max-width: 480px) {
+    h1 {
+        line-height: 40px;
+    }
     .flex-center {
         flex-flow: column nowrap;
         align-items: center;
@@ -141,5 +141,5 @@ button:hover {
     .file {
         margin: 0.5rem 0 0.5rem 6rem;
     }
-  }
+}
 
