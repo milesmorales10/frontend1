@@ -46,8 +46,15 @@ button {
     padding: 0.5rem 2rem;
 }
 
-.menu i {
+.menu a:before {
     margin-right: 0.2rem;
+    font-family: FontAwesome;
+    content: "\f1b0";
+}
+
+.menu a:hover {
+    color: #000;
+    font-weight: bold;
 }
 
 .burger {
@@ -78,6 +85,11 @@ button {
     margin: 0.8rem 2rem;
 }
 
+.banner__button:hover {
+    background: #4040f8;
+    font-weight: bold;
+}
+
 .content-products {
     text-align: center;
     line-height: 2.5rem;
@@ -100,6 +112,10 @@ button {
 
 .products-list article {
     margin: 3rem 0.6rem;
+}
+
+.products-list img:hover {
+    width: 120%;
 }
 
 .main-icon {
@@ -130,10 +146,15 @@ button {
     border-style: none;
 }
 
-#form-contact input[placeholder] {
+#form-contact input::placeholder {
     color: white;
     font-size: 0.6rem;
     padding-left: 0.8rem;
+}
+
+#form-contact input:hover {
+    background-color: #8f532e5d;
+    border: 1px solid #000;
 }
 
 .form-button {
@@ -149,8 +170,18 @@ button {
     background: #8A8787;
 }
 
+.reset:hover {
+    cursor: pointer;
+    background: red;
+}
+
 .send {
     background: #F0A83E;
+}
+
+.send:hover {
+    cursor: pointer;
+    background: #4040f8;
 }
 
 #subscription {
@@ -187,6 +218,10 @@ button {
     background: #3C2313;
     border-radius: 30px;
     color: #fff;
+}
+
+#form-subscription button[type="submit"]:hover {
+    background: #a8470a;
 }
 
 .about {
